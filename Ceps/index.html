@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereços Locais</title>
+    <script src="script.js"></script>
+    <style>
+        section{
+            text-align: center;
+            display: block;
+        }
+        #cod{
+            width: 116px;
+            margin-bottom: 5px;
+        }
+        input{
+            text-align: center;
+            margin-bottom: 5px;
+            border: #000 solid 2px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Busca cep local</h1>
+        <input type="number" placeholder="Digite o cep" id="cod">
+        <input type="button" value="Buscar" onclick="buscar()"><br>
+        <input type="text" id="cidade" placeholder="Cidade"><br>
+        <input type="text" id="estado" placeholder="Estado"><br>
+        <input type="text" id="bairro" placeholder="Bairro"><br>
+        <input type="text" id="pais" placeholder="País"><br>
+    </section>
+    
+</body>
+</html>
